@@ -1,0 +1,43 @@
+.header {
+    background: url('../img/destaque.jpeg') no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+}
+
+.main-menu {
+    list-style: none;
+    text-align: center;
+}
+
+.main-menu .menu-item {
+    display: inline-block;
+    margin: 0 2px 32px 0;
+ }
+
+.menu-item a {
+    color: white;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.main-menu .menu-item a:hover{
+    background-color: #48A3A6;
+}
+.chamada-evento{
+    text-transform: uppercase;
+    text-align: center;
+}
+.chamada-evento h1{
+    color:white;
+}
+.chamada-evento p{
+    color:greenyellow;
+}
+.inscricao-evento{
+    text-transform:uppercase;
+    text-align: center;
+}
