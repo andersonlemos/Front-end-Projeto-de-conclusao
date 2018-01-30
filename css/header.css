@@ -1,12 +1,15 @@
-.header {
+body{
     background: url('../img/destaque.jpeg') no-repeat;
     background-size: cover;
+}
+.header {
     padding-top: 32px;
 }
 
 .main-menu {
     list-style: none;
     text-align: center;
+    font-size:1em;
 }
 
 .main-menu .menu-item {
@@ -28,16 +31,39 @@
     background-color: #48A3A6;
 }
 .chamada-evento{
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 10px black;
+    font-size: 4em;
 }
 .chamada-evento h1{
-    color:white;
+    color:#ffff;
+    padding:20px 0;
 }
-.chamada-evento p{
-    color:greenyellow;
+.chamada-evento h2{
+    color:#adff2f;
 }
 .inscricao-evento{
-    text-transform:uppercase;
     text-align: center;
+    padding: 40px 0;
+}
+.button{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffff;
+    background-color: #48A3A6;
+    padding: 20px 50px;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+@media screen and (min-width: 768px) {
+
+    .button{
+        font-size: 2em;
+    }
+    .chamada-evento{
+        font-size: 8em;
+    }
+
+
 }
