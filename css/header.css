@@ -1,8 +1,7 @@
-body{
+
+.header {
     background: url('../img/destaque.jpeg') no-repeat;
     background-size: cover;
-}
-.header {
     padding-top: 32px;
 }
 
@@ -34,11 +33,11 @@ body{
     text-align: center;
     text-transform: uppercase;
     text-shadow: 4px 4px 10px black;
-    font-size: 4em;
+    font-size: 2.5em;
 }
 .chamada-evento h1{
     color:#ffff;
-    padding:20px 0;
+    margin:20px 0;
 }
 .chamada-evento h2{
     color:#adff2f;
@@ -48,21 +47,82 @@ body{
     padding: 40px 0;
 }
 .button{
+    display:inline-block;
     text-decoration: none;
     text-transform: uppercase;
     color: #ffff;
     background-color: #48A3A6;
     padding: 20px 50px;
-    border: 1px solid black;
-    border-radius: 5%;
+    border-radius: 8px;
 }
-@media screen and (min-width: 768px) {
+.conteudo{
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 20px 0 20px;
+}
+.titulo-principal{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.subtitulo-principal{
+    font-size:1.5em;
+    margin-bottom:20px;
+}
+.conteudo-principal .texto-principal{
+    font-size: 1.1em;  
+    line-height: 1.5em;  
+}
+.painel-palestrantes{
+    background: #EB714B;
+    text-align: center;
+    color:white;
+    padding-top:10px;
+    
+}
+.painel-palestrantes .titulo-painel{
+    font-size: 2em;
+    padding-bottom:10px;
+    margin:0px 20px 0 20px;
+}
+.painel-palestrantes .subtitulo-painel{
+    font-size:1.5em;
+    margin:0px 20px 0 20px;
+}
+.palestrantes{
+    margin-top:10px;
+    
+}
+.palestrante{
+    display: inline-table;
+    background: white;
+    border-radius: 10px;
+    color:black;
+   margin-bottom: 15px;
+}
+.foto-palestrante img{
+    margin-top:10px;
+    margin-bottom:10px; 
+    border-radius: 50%;
+}
+.palestrante .nome-palestrante{
+    margin-top:5px;
+}
+.palestrante .bio-palestrante{
+    margin:5px 10px 0 10px;;
+    font-weight: bold;
+}
+.palestrante .frase-palestrante{
+    margin:5px 0 5px 0;
+}
+
+@media screen and (min-width: 650px) {
 
     .button{
         font-size: 2em;
     }
     .chamada-evento{
-        font-size: 8em;
+        font-size: 5em;
     }
 
 
