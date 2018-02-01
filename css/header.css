@@ -73,49 +73,76 @@
     font-size: 1.1em;  
     line-height: 1.5em;  
 }
+
 .painel-palestrantes{
-    background: #EB714B;
-    text-align: center;
-    color:white;
-    padding-top:10px;
+    background:#EB714B;
+    padding:0 20px 0 20px;
     
 }
 .painel-palestrantes .titulo-painel{
-    font-size: 2em;
-    padding-bottom:10px;
-    margin:0px 20px 0 20px;
+    font-size:2em;
+    color:white;
+    text-align: center;
 }
 .painel-palestrantes .subtitulo-painel{
     font-size:1.5em;
-    margin:0px 20px 0 20px;
+    color:white;
+    text-align: center;
+    padding-top:15px;
 }
-.palestrantes{
-    margin-top:10px;
+.painel-palestrantes .lista-palestrantes{
+    padding-top:10px;
+}
+.painel-palestrantes .palestrante{
+    display:inline-block;
+    background: white;
+    border-radius:10px;
+    margin:10px;
+    text-align: center;
+    width:250px;
     
 }
-.palestrante{
-    display: inline-table;
-    background: white;
-    border-radius: 10px;
-    color:black;
-   margin-bottom: 15px;
-}
-.foto-palestrante img{
-    margin-top:10px;
-    margin-bottom:10px; 
-    border-radius: 50%;
+.palestrante .foto-palestrante{
+    border-radius:50%;
+    padding:15px;
 }
 .palestrante .nome-palestrante{
-    margin-top:5px;
+    padding-top:5px;
 }
 .palestrante .bio-palestrante{
-    margin:5px 10px 0 10px;;
+    padding:10px 10px 0 10px;
     font-weight: bold;
 }
 .palestrante .frase-palestrante{
-    margin:5px 0 5px 0;
+    margin:10px;
 }
+.cadastro .titulo-cadastro{
+    text-align: center;
+    color:#EB714B;
+    font-size:1.5em;
+    margin:16px 0 16px 0;
+    text-transform: uppercase;
+}
+.field label{
+    display:block;
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 16px;
 
+}
+.field input{
+    display: block;
+    width:100%;
+    font-size: 20px;
+    padding:5px;
+    border-radius:5px;
+    box-shadow:1px 1px 10px #48A3A6;
+}
+.posicao-botao{
+    text-align: center;
+    padding:20px;
+}
 @media screen and (min-width: 650px) {
 
     .button{
