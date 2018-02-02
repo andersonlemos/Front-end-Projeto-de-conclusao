@@ -1,0 +1,21 @@
+.container{
+    margin:10px;
+}
+.titulo{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin:10px 0 10px 0;
+}
+.subtitulo{
+    font-size:1.5em;
+    margin:10px 0 10px 0;
+}
+.button{
+    display:inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffff;
+    background-color: #48A3A6;
+    padding: 20px 50px;
+    border-radius: 8px;
+}

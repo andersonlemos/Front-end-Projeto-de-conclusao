@@ -1,0 +1,10 @@
+@media screen and (min-width: 650px) {
+
+    .button{
+        font-size: 2em;
+    }
+    .chamada-evento{
+        font-size: 5em;
+    }
+
+}

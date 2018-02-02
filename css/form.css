@@ -1,0 +1,26 @@
+
+.cadastro .titulo{
+    text-align: center;
+    color:#EB714B;
+    font-size:1.5em;
+    text-transform: uppercase;
+    margin-top:20px;
+}
+.field label{
+    display:block;
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 16px;
+
+}
+.field input{
+    display: block;
+    width:100%;
+    font-size: 20px;
+    border-radius:5px;
+    box-shadow:1px 1px 10px #48A3A6;
+}
+.posicao-botao{
+    text-align: center;
+}

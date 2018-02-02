@@ -1,0 +1,10 @@
+.conteudo{
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 20px 0 20px;
+}
+
+.conteudo-principal .texto-principal{
+    font-size: 1.1em;  
+    line-height: 1.5em;  
+}

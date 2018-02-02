@@ -1,21 +1,17 @@
-
 .header {
     background: url('../img/destaque.jpeg') no-repeat;
     background-size: cover;
     padding-top: 32px;
 }
-
 .main-menu {
     list-style: none;
     text-align: center;
     font-size:1em;
 }
-
 .main-menu .menu-item {
     display: inline-block;
     margin: 0 2px 32px 0;
  }
-
 .menu-item a {
     color: white;
     padding: 16px;
@@ -25,7 +21,6 @@
     text-decoration: none;
     transition: background-color 0.5s;
 }
-
 .main-menu .menu-item a:hover{
     background-color: #48A3A6;
 }
@@ -33,42 +28,24 @@
     text-align: center;
     text-transform: uppercase;
     text-shadow: 4px 4px 10px black;
-    font-size: 2.5em;
 }
-.chamada-evento h1{
+.chamada-evento .titulo{
     color:#ffff;
-    margin:20px 0;
 }
-.chamada-evento h2{
+.chamada-evento .subtitulo{
     color:#adff2f;
 }
 .inscricao-evento{
     text-align: center;
     padding: 40px 0;
 }
-.button{
-    display:inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #ffff;
-    background-color: #48A3A6;
-    padding: 20px 50px;
-    border-radius: 8px;
-}
+
 .conteudo{
     text-align: center;
     padding-top: 20px;
     margin: 0 20px 0 20px;
 }
-.titulo-principal{
-    font-size: 2em;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-.subtitulo-principal{
-    font-size:1.5em;
-    margin-bottom:20px;
-}
+
 .conteudo-principal .texto-principal{
     font-size: 1.1em;  
     line-height: 1.5em;  
@@ -142,15 +119,4 @@
 .posicao-botao{
     text-align: center;
     padding:20px;
-}
-@media screen and (min-width: 650px) {
-
-    .button{
-        font-size: 2em;
-    }
-    .chamada-evento{
-        font-size: 5em;
-    }
-
-
 }

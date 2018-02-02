@@ -6,111 +6,124 @@
     <title>AluraConf</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/main">
+    <link rel="stylesheet" href="css/conteudo.css">
+    <link rel="stylesheet" href="css/palestrantes.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
-
 <body>
-    <header class="header">
-        <nav class="main-menu">
-            <li class="menu-item">
-                <a href="#sobre">Sobre</a>
-            </li>
-            <li class="menu-item">
-                <a href="#palestrantes">Palestrantes</a>
-            </li>
-        </nav>
-        <section class="chamada-evento">
-            <h1>AluraConf</h1>
-            <h2>30Maio|Rio</h2>
+    <div class="container">
+        <header class="header">
+            <nav class="main-menu">
+                <li class="menu-item">
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#palestrantes">Palestrantes</a>
+                </li>
+            </nav>
+            <section class="chamada-evento">
+                <h1 class="titulo">AluraConf</h1>
+                <h2 class ="subtitulo">30Maio|Rio</h2>
+            </section>
+            <section class="inscricao-evento">
+                <a class="button" href="#form-cadastro">Inscreva-Se</a>
+            </section>
+        </header>
+    </div>
+    <div class="container">
+        <section id="sobre" class="conteudo">
+            <main class="conteudo-principal">
+                <h2 class="titulo">Muito Conteudo: do frontend ao backend</h2>
+                <h3 class="subtitulo">30 de Maio de 2017 - na Cidade Maravilhosa</h3>
+                <p class="texto-principal">
+                    Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor mobile. É uma grande chance
+                    de ficar por dentro dos assuntos de Android , IOS, Web Mobile, desenvolvimento híbrido, UX, além da parte
+                    backend com Rest, Microservices, e Big Data. O desenvolvedor autalizado vai estar aqui.
+                </p>
+            </main>
         </section>
-        <section class="inscricao-evento">
-            <a class="button" href="#form-cadastro">Inscreva-Se</a>
+    </div>
+    <div class="container">
+        <section id="palestrantes" class="painel-palestrantes">
+            <h2 class="titulo">Palestrantes</h2>
+            <h3 class="subtitulo">Aprenda com palestrantes que são referência no mercado</h3>
+            <ul class="lista-palestrantes">
+                <li class="palestrante">
+                    <figure class="descricao-palestrante">
+                        <img class="foto-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
+                        <figcaption class="nome-palestrante">Flávio Almeida</figcaption>
+                        <p class="bio-palestrante">Desenvolvedor e instrutor na Caelum</p>
+                    </figure>
+                    <p class="frase-palestrante">To be or not to be MEAN</p>
+                </li>
+                <li class="palestrante">
+                    <figure class="descricao-palestrante">
+                        <img class="foto-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
+                        <figcaption class="nome-palestrante">Flávio Almeida</figcaption>
+                        <p class="bio-palestrante">Desenvolvedor e instrutor na Caelum</p>
+                    </figure>
+                    <p class="frase-palestrante">To bajhskjahskdajhsdkhkajshdkahsjhdkahsdkjah ke or not to be MEAN</p>
+                </li>
+                <li class="palestrante">
+                    <figure class="descricao-palestrante">
+                        <img class="foto-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
+                        <figcaption class="nome-palestrante">Flávio Almeida</figcaption>
+                        <p class="bio-palestrante">Desenvolvedor e instrutor na Caelum</p>
+                    </figure>
+                    <p class="frase-palestrante">To be or not to be MEAN</p>
+                </li>
+                <li class="palestrante">
+                    <figure class="descricao-palestrante">
+                        <img class="foto-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
+                        <figcaption class="nome-palestrante">Flávio Almeida</figcaption>
+                        <p class="bio-palestrante">Desenvolvedor e instrutor na Caelum</p>
+                    </figure>
+                    <p class="frase-palestrante">To be or not to be MEAN</p>
+                </li>
+                <li class="palestrante">
+                    <figure class="descricao-palestrante">
+                        <img class="foto-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
+                        <figcaption class="nome-palestrante">Flávio Almeida</figcaption>
+                        <p class="bio-palestrante">Desenvolvedor e instrutor na Caelum</p>
+                    </figure>
+                    <p class="frase-palestrante">To be or not to be MEAN</p>
+                </li>
+                <li class="palestrante">
+                    <figure class="descricao-palestrante">
+                        <img class="foto-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
+                        <figcaption class="nome-palestrante">Flávio Almeida</figcaption>
+                        <p class="bio-palestrante">Desenvolvedor e instrutor na Caelum</p>
+                    </figure>
+                    <p class="frase-palestrante">To be or not to be MEAN</p>
+                </li>
+            </ul>
         </section>
-    </header>
-    <section id ="sobre" class="conteudo">
-        <main class="conteudo-principal">
-            <h2 class="titulo-principal">Muito Conteudo: do frontend ao backend</h2>
-            <h3 class="subtitulo-principal">30 de Maio de 2017 - na Cidade Maravilhosa</h3>
-            <p class="texto-principal">
-                Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor mobile. É uma grande chance
-                de ficar por dentro dos assuntos de Android , IOS, Web Mobile, desenvolvimento híbrido, UX, além da parte
-                backend com Rest, Microservices, e Big Data. O desenvolvedor autalizado vai estar aqui.
-            </p>
-        </main>
-    </section>
-    <section id ="palestrantes" class="painel-palestrantes">
-        <h2 class="titulo-painel">Palestrantes</h2>
-        <h3 class="subtitulo-painel">Aprenda com palestrantes que são referência no mercado</h3>
-        <ul class="lista-palestrantes">
-            <li class="palestrante">
-                <figure class="descricao-palestrante">
-                    <img class="foto-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
-                    <figcaption class="nome-palestrante">Flávio Almeida</figcaption>
-                    <p class="bio-palestrante">Desenvolvedor e instrutor na Caelum</p>
-                </figure>
-                <p class="frase-palestrante">To be or not to be MEAN</p>
-            </li>
-            <li class="palestrante">
-                <figure class="descricao-palestrante">
-                    <img class="foto-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
-                    <figcaption class="nome-palestrante">Flávio Almeida</figcaption>
-                    <p class="bio-palestrante">Desenvolvedor e instrutor na Caelum</p>
-                </figure>
-                <p class="frase-palestrante">To bajhskjahskdajhsdkhkajshdkahsjhdkahsdkjah ke or not to be MEAN</p>
-            </li>
-            <li class="palestrante">
-                <figure class="descricao-palestrante">
-                    <img class="foto-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
-                    <figcaption class="nome-palestrante">Flávio Almeida</figcaption>
-                    <p class="bio-palestrante">Desenvolvedor e instrutor na Caelum</p>
-                </figure>
-                <p class="frase-palestrante">To be or not to be MEAN</p>
-            </li>
-            <li class="palestrante">
-                <figure class="descricao-palestrante">
-                    <img class="foto-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
-                    <figcaption class="nome-palestrante">Flávio Almeida</figcaption>
-                    <p class="bio-palestrante">Desenvolvedor e instrutor na Caelum</p>
-                </figure>
-                <p class="frase-palestrante">To be or not to be MEAN</p>
-            </li>
-            <li class="palestrante">
-                <figure class="descricao-palestrante">
-                    <img class="foto-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
-                    <figcaption class="nome-palestrante">Flávio Almeida</figcaption>
-                    <p class="bio-palestrante">Desenvolvedor e instrutor na Caelum</p>
-                </figure>
-                <p class="frase-palestrante">To be or not to be MEAN</p>
-            </li>
-            <li class="palestrante">
-                <figure class="descricao-palestrante">
-                    <img class="foto-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do Palestrante">
-                    <figcaption class="nome-palestrante">Flávio Almeida</figcaption>
-                    <p class="bio-palestrante">Desenvolvedor e instrutor na Caelum</p>
-                </figure>
-                <p class="frase-palestrante">To be or not to be MEAN</p>
-            </li>
-        </ul>
-    </section>
-    <section id ="form-cadastro" class="cadastro">
-        <h2 class="titulo-cadastro">Seus Dados</h2>
-        <form>
-        <div class="field">
-            <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome">
+    </div>
+    <div class="container">
+        <section id="form-cadastro" class="cadastro">
+            <h2 class="titulo">Seus Dados</h2>
+            <div class="container">
+            <form>
+                <div class="field">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="field">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="posicao-botao">
+                    <button class="button" type="submit">Realizar Inscrição</button>
+                </div>
+            </form>
         </div>
-        <div class="field">
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email">
-        </div>
-        <div class="posicao-botao">
-            <button class="button" type="submit">Realizar Inscrição</button>
-        </div>
-        </form>
-    </section>
-
+        </section>
+    </div>
 </body>
 <script src="js/jquery.js"></script>
 <script src="js/index.js"></script>
+
 </html>
